@@ -7,6 +7,7 @@
 <script setup lang="ts">
 const { logout, login, user } = useUserState();
 import { getAuth, onAuthStateChanged } from 'firebase/auth';
+console.log('77777');
 
 let auth: any;
 
